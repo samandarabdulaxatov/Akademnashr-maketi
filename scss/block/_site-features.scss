@@ -1,0 +1,113 @@
+/* FEATURES */
+.site-features {
+  padding-top: 150px;
+  background-color: $bg-color;
+  padding-bottom: 160px;
+}
+
+.site-features__title {
+  max-width: 435px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: $black-color;
+  margin: 0;
+  margin-bottom: 72px;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: $btn-color;
+    margin-bottom: 40px;
+  }
+}
+
+.site-features__small-title {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: $black-color;
+  margin: 0;
+}
+
+.site-features__small-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: $black-color;
+}
+
+.site-features__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contents {
+  width: 340px;
+}
+
+.sale {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #252420;
+  border-radius: 12px;
+  margin-top: 245px;
+}
+
+.sale__content {
+  position: relative;
+  width: 440px;
+  margin-left: 64px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 440px;
+    height: 440px;
+    left: 530px;
+    top: -150px;
+    background-image: url("../../img/books.png");
+    border-radius: 12px;
+  }
+}
+
+.sale__title {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: $bg-color;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.sale__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.sale__span {
+  color: $btn-color;
+}

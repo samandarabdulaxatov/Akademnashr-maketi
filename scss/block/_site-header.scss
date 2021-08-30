@@ -1,0 +1,78 @@
+/* HEADER */
+.site-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: $bg-color;
+}
+
+.site-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  text-decoration: none;
+  transition: 0.3 ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.site-nav__list {
+  display: flex;
+  @include list-unstyled;
+}
+
+.site-nav__item {
+  margin-right: 32px;
+
+  &:nth-child(5) {
+    margin-right: 0;
+  }
+}
+
+.site-nav__link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $black-color;
+  transition: 0.3 ease;
+
+  &:hover {
+    color: $btn-color;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.sign-up {
+  text-decoration: none;
+  padding: 12px 24px;
+  background: $btn-color;
+  color: $bg-color;
+  border-radius: 4px;
+  transition: 0.3 ease;
+
+  &:hover {
+    opacity: 0.8;
+    color: $bg-color;
+  }
+
+  &:active {
+    opacity: 0.6;
+    color: $bg-color;
+  }
+}

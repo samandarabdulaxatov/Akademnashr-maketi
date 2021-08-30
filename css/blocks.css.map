@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,qBAAqB;AACrB,AAAA,gBAAgB,CAAC;EACf,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,IAAI,EAAE,aAAa;EACnB,QAAQ,EAAE,MAAM;CACjB;;ACVD,YAAY;AAEZ,AAAA,YAAY,CAAC;EACX,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;CACrB;;AAED,AAAA,uBAAuB,CAAC;EACtB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;CAEd",
+    "sources": [
+        "../scss/block/blocks.scss",
+        "../scss/block/_visually-hidden.scss",
+        "../scss/block/_site-header.scss"
+    ],
+    "names": [],
+    "file": "blocks.css"
+}

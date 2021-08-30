@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACCA,AAAA,gBAAgB,AAAC,CACf,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,GAAG,CACX,MAAM,CAAE,IAAI,CACZ,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,IAAI,CAAE,aAAa,CACnB,QAAQ,CAAE,MAAM,CACjB,ACRD,AAAA,YAAY,AAAC,CACX,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,uBAAuB,AAAC,CACtB,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC9B,WAAW,CAAE,MAAM,CACpB,AAED,AAAA,eAAe,AAAC,CACd,OAAO,CAAE,IAAI,CAEd",
+    "sources": [
+        "../scss/block/blocks.scss",
+        "../scss/block/_visually-hidden.scss",
+        "../scss/block/_site-header.scss"
+    ],
+    "names": [],
+    "file": "blocks.min.css"
+}
